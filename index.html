@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <script src="submit.js"></script>
+    <script src="val.js"></script>
+    <script src="https://kit.fontawesome.com/18b318d9f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="xav">Xavier Bagdazian</h1>
+    </header>
+    <main>
+
+        <div id="abt">
+            <h2>About</h2>
+
+            <p>Hello! My name is Xavier Bagdazian. I am a web developer with about a year of experience.
+                I have experience with HTML 5, CSS, and JavaScript.
+            </p>
+        </div>
+
+        <div id="prdcts">
+            <h2>Products</h2>
+
+            <p>I constructed this site in order to create a platform for sharing all of my creative endvors with the
+                worldwide web | <a id="xbag" href="htpps://creationpost.com">creationpost.com</a> - <a href="#" id="xbCode">code</a>
+            </p>
+        </div>
+
+        <div align="center" id="contact">
+
+            <h2>Contact</h2>
+
+            <div id="con" class="container">
+                <div class="wrapper">
+
+                    <div class="contact">
+
+                        <!-- i think method="POST" stops button from refreshing page -->
+                        <form action="mailto" id="form">
+                            <p>
+
+                                <input id="name" type="text" name="name" placeholder="full name">
+                            </p>
+                            <p>
+
+                                <input id="company" type="text" name="company" placeholder="company">
+                            </p>
+                            <p>
+                                <input id="phone" type="text" name="phone" placeholder="phone number">
+                            </p>
+                            <p>
+
+                                <input id="phone" type="email" name="email" placeholder="email">
+                            </p>
+                            <p class="full">
+
+                                <textarea maxlength="50" id="message" class="input" type="text" name="message"
+                                    placeholder="50 characters "></textarea>
+
+                            </p>
+
+                            <button id="submit" name="data" type="submit" onclick="showText()">submit</button>  
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div>
+            <p id="subText"> </p>
+
+        </div>
+
+        <div>
+            <p id="alert" style="color:red"></p>
+        </div>
+
+    </main>
+
+
+</body>
+<footer> This site was created by Xavier Bagdazian | xbagdazian@outlook.com | <a href="https://github.com/"><i
+            class="fab fa-github-square"></i></a>
+    <a href="https://twitter.com/XBagdazian"><i class="fab fa-twitter-square"></i></a>
+</footer>
+
+</html>
